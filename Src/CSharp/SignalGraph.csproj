@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+
+		<!-- NuGet package metadata -->
+		<PackageId>SovereignTrust.SignalGraph</PackageId>
+		<Authors>Silicon Dream Artists</Authors>
+		<Company>BDDB LLC</Company>
+		<Copyright>Copyright (c) Silicon Dream Artists. Current copyright holder: BDDB LLC.</Copyright>
+		<Version>2.1.0</Version>
+		<Description>Universal Signal format for decentralized, verifiable intent execution. Part of the SovereignTrust protocol suite.</Description>
+		<PackageTags>signal sovereigntrust messaging protocol decentralized trust</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/B-D-D-B/SignalGraph</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+
+		<!-- Required for NuGet publishing -->
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+		<!-- Optional but recommended -->
+		<PackageReadmeFile>Readme.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="Readme.md" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.4" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+</Project>
