@@ -1,6 +1,6 @@
 # =============================================================================
 # 🧠 Graph (Working Memory using a Grid)
-#  License: MIT License • Copyright (c) 2025 Silicon Dream Artists / BDDB
+#  License: MIT License • Copyright (c) 2025 Silicon Dream Artists. Current copyright holder: BDDB LLC.
 #  Authors: Shadow PhanTom ☠️🧁👾️/🤖 • Neural Alchemist ⚗️☣️🐲 • Last Generated: 05/02/2025
 # =============================================================================
 # The Graph object represents the live working memory during a conduction which can have an infiniate amount of internal conductions, so a user or ai may open a conduction with a graph and then perform a series of .

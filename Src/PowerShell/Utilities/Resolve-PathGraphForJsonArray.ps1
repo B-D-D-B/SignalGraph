@@ -1,6 +1,6 @@
 # =============================================================================
 # 🔁 Resolve-PathGraphForJsonArray (Declarative Signal Graph Builder)
-#  License: MIT License • Copyright (c) 2025 Silicon Dream Artists / BDDB
+#  License: MIT License • Copyright (c) 2025 Silicon Dream Artists. Current copyright holder: BDDB LLC.
 #  Authors: Shadow PhanTom ☠️🧁👾️/🤖 • Neural Alchemist ⚗️☣️🐲 • Last Generated: 05/20/2025
 # =============================================================================
 # This function generates a sovereign Signal graph from a JSON array, using

@@ -9,10 +9,11 @@ New-ModuleManifest -Path ./SignalGraph.psd1 `
   -ModuleVersion '1.0.0' `
   -Author 'Silicon Dream Artists' `
   -CompanyName 'Silicon Dream Artists' `
+  -Copyright '(c) Silicon Dream Artists. Current copyright holder: BDDB LLC.' `
   -Description 'Native PowerShell implementation of the Signal protocol format, used in SovereignTrust for verifiable, structured execution results.' `
   -Tags "'Signal' 'SovereignTrust' 'Messaging' 'StructuredLog'" `
   -LicenseUri 'https://opensource.org/licenses/MIT' `
-  -ProjectUri 'https://github.com/SiliconDreamArtists/SignalGraph' `
+  -ProjectUri 'https://github.com/B-D-D-B/SignalGraph' `
   -CompatiblePSEditions 'Core' `
   -PowerShellVersion '5.1'
 

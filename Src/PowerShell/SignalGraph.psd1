@@ -27,7 +27,7 @@ Author = 'Silicon Dream Artists'
 CompanyName = 'Silicon Dream Artists'
 
 # Copyright statement for this module
-Copyright = '(c) Silicon Dream Artists. All rights reserved.'
+Copyright = '(c) Silicon Dream Artists. Current copyright holder: BDDB LLC.'
 
 # Description of the functionality provided by this module
 Description = 'Native PowerShell implementation of the Signal protocol format, used in SovereignTrust for verifiable, structured execution results.'
@@ -101,7 +101,7 @@ PrivateData = @{
         LicenseUri = 'https://opensource.org/licenses/MIT'
 
         # A URL to the main website for this project.
-        ProjectUri = 'https://github.com/SiliconDreamArtists/SignalGraph'
+        ProjectUri = 'https://github.com/B-D-D-B/SignalGraph'
 
         # A URL to an icon representing this module.
         # IconUri = ''

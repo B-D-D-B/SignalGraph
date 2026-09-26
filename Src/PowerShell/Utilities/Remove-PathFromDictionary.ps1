@@ -1,7 +1,7 @@
 # =============================================================================
 # 🧹 FUNCTION: Remove-PathFromDictionary
 #  Removes a key/property from a resolved parent object using symbolic pathing
-#  License: MIT License • Copyright (c) 2025 Silicon Dream Artists / BDDB
+#  License: MIT License • Copyright (c) 2025 Silicon Dream Artists. Current copyright holder: BDDB LLC.
 #  Authors: Shadow PhanTom 🤖/☠️🧁👾️ • Neural Alchemist ⚗️☣️🐲 • Version: 2025.5.4.8
 # =============================================================================
 
