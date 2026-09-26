@@ -2,10 +2,14 @@ name: C# Build
 
 on:
   push:
+    branches:
+      - main_publish
     paths:
       - 'Src/CSharp/**'
       - '.github/workflows/csharp-build.yml'
   pull_request:
+    branches:
+      - main_publish
     paths:
       - 'Src/CSharp/**'
       - '.github/workflows/csharp-build.yml'
@@ -21,6 +25,7 @@ concurrency:
 jobs:
   build:
     name: Build and package
+    if: github.event_name != 'workflow_dispatch' || github.ref == 'refs/heads/main_publish'
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
