@@ -1,6 +1,6 @@
 //------------------------------------------------------------------------------
-// <copyright file="Signal.cs" company="Silicon Dream Artists">
-//     Copyright (c) Silicon Dream Artists. All rights reserved.
+// <copyright file="Signal.cs" company="BDDB LLC">
+//     Copyright (c) Silicon Dream Artists. Current copyright holder: BDDB LLC.
 // </copyright>
 //------------------------------------------------------------------------------
 

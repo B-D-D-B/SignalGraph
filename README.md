@@ -129,6 +129,10 @@ SignalGraph formalizes the **execution result layer** of decentralized intent co
 
 ---
 
+## Ownership and collaboration
+
+BDDB LLC is the current copyright holder for the rights it owns in this project. Silicon Dream Artists SPC collaborates on the project. Licensed under MIT.
+
 ## 📄 License
 
 MIT — see [`LICENSE`](./LICENSE)
