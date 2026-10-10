@@ -44,7 +44,7 @@ function Invoke-ParseFilterSegment {
             $result.Filters += @{
                 Key   = $m.Groups[1].Value.Trim()
                 Op    = $op
-                Value = $m.Groups[3].Value.Trim()
+                Value = $m.Groups[4].Value.Trim()
             }
         }
     }
