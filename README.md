@@ -1,5 +1,7 @@
 # SovereignTrust-SignalGraph
 
+Shared documentary references: [BDDB source-reference index](https://github.com/B-D-D-B/BDDB.Documentation/blob/main/Reference/Source/SignalGraph/README.md), [PowerShell foundation review](https://github.com/B-D-D-B/BDDB.Documentation/blob/main/Architecture/SignalGraph/SovereignTrust_PowerShell_Foundation_Review.md), and [historical documentation catalog](https://github.com/B-D-D-B/BDDB.Documentation/blob/main/Catalogs/SignalGraph.json). The package-owned C# README remains local.
+
 **SovereignTrust-SignalGraph** defines the universal result and feedback object used across the entire [SovereignTrust](https://sovereigntrust.foundation) protocol stack. The `Signal<T>` class provides a structured, verifiable format for propagating execution results, feedback entries, and command metadata between agents.
 
 This library serves as the core language for decentralized execution coordination.
