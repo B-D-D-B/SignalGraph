@@ -1,4 +1,13 @@
 #TODO: Make Signal Doctrine Compliant
+
+<#
+.SYNOPSIS
+Parses a path segment into a hashtable containing its array key and any matched filter fragments.
+.DESCRIPTION
+Static source inspection identifies a quoted-value/operator defect (D2-F01); this help does not promise successful filtered matching.
+.PARAMETER segment
+Path segment to inspect.
+#>
 function Invoke-ParseFilterSegment {
     param([string]$segment)
 
@@ -35,7 +44,7 @@ function Invoke-ParseFilterSegment {
             $result.Filters += @{
                 Key   = $m.Groups[1].Value.Trim()
                 Op    = $op
-                Value = $m.Groups[3].Value.Trim()
+                Value = $m.Groups[4].Value.Trim()
             }
         }
     }
