@@ -459,7 +459,7 @@ function Resolve-InnerPathFromDictionary {
                     else {
                         $message = if ($current -is [string]) {
                             $snippet = $current.Substring(0, [Math]::Min(40, $current.Length))
-                            "Unsupported traversal type: String ('$snippet') (lastSegmentName: $lastSegmentName)"
+                            "Unsupported traversal type: String ('$snippet') (lastSegmentName: $lastSegmentName, fullPath: $Path)"
                         }
                         else {
                             $typeName = if ($null -eq $current) { '<null>' } else { $current.GetType().FullName }
@@ -546,7 +546,7 @@ function Resolve-InnerPathFromDictionary {
             }
                 #>
             else {
-                $opSignal.LogMessage($SignalLevel, "Unsupported traversal type: $($current.GetType().FullName) (lastSegmentName: $lastSegmentName)", $SignalTags)
+                $opSignal.LogMessage($SignalLevel, "Unsupported traversal type: $($current.GetType().FullName) (lastSegmentName: $lastSegmentName, fullPath: $Path)", $SignalTags)
                 return $opSignal
             }
 
